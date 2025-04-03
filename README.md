@@ -1,6 +1,6 @@
-# Hello World Script
+# UNIX Shell Library
 
-This repository contains a simple "Hello, World!" Bash script.
+This repository contains a set of UNIX shell scripts.
 
 ## Usage
 
@@ -13,7 +13,7 @@ chmod +x hello.sh
 
 ## License
 
-Copyright (C) 2025 Mert Gör
+Copyright (C) 2025 Mert Gör and contributors
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

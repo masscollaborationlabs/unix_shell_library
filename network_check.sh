@@ -14,4 +14,12 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-echo "Hello, World!"
+# Check network connection by pinging a reliable server (e.g., Google DNS)
+PING_TARGET="8.8.8.8"
+PING_COUNT=1
+
+if ping -c $PING_COUNT $PING_TARGET &> /dev/null; then
+    echo "Network is UP"
+else
+    echo "Network is DOWN"
+fi
